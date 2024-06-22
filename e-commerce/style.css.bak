@@ -1,0 +1,296 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  
+}
+header h2{
+	margin-left:50px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  
+}
+
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+header img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  
+ padding-left: 450px;
+}
+
+header nav {
+  margin-left: auto;
+  
+  
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+	margin-right: 1.5em;
+	list-style-type:none;
+	display:inline-block;
+
+}
+
+header nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	text-decoration:none;
+	text-transform:capitalize;
+	transition:0.4s;/*take transition for 0.9 second*/
+	font-family: 'Josefin Sans', sans-serif;
+}
+header ul li a:hover {
+	color:#72a19f;
+	
+}
+
+main {
+  padding: 1em;
+}
+main section p{
+	font-size:12px;
+	
+}
+
+section {
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 0.5em;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+section h1 {
+  text-align: center;
+}
+section img{
+	height:300px;
+	
+	margin-right:10px;
+	background-color:#fff;
+}
+.product{
+	box-shadow: 0px 0px 15px black;
+	margin-right:30px;
+	margin-top:30px;
+	}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+   position: relative;
+  
+}
+
+.product h3{
+	padding-left:80px;
+}
+.product p{
+	
+	padding-left:30px;
+}
+.imgf{
+	
+  transition: all 0.5s ease;
+}
+
+.imgf:hover {
+  
+  transform: scale(0.7);
+}
+
+	
+
+.slider-container {
+  width: 1500px;
+  height: 500px;
+  position: relative;
+}
+.slider-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+   width: 100%;
+ 
+  
+}
+
+.slide:first-child {
+  opacity: 1;
+}
+/*
+footer {
+  background-color:gray;
+  color:#f5f5f5;
+  padding: 2rem 0;
+}
+
+footer h4 {
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer .form-group {
+  display: flex;
+  align-items: center;
+}
+
+footer .form-group label {
+  margin-right: 0.5rem;
+}
+
+footer .form-group input[type="email"] {
+  flex-grow: 1;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+}
+.col-12{
+	color:purple;
+}
+footer a.twitter{
+    background-image: url('path-to-image/twitter.png');
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    display:inline-block;
+}
+footer a.facebook{
+    background-image: url('path-to-image/facebook.png');
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    display:inline-block;
+}
+#product-more{
+	font-size:20px;
+}
+.more a{
+	color:red;
+}*/
+span{
+	color: #229d89;
+}
+#product-more{
+	font-size:20px;
+	
+}
+#product-more a{
+	color: #229d89;
+}
+.row{
+	display:flex;
+	flex-text:wrap;
+	
+}
+.footer{
+	
+	background-color:#22282a;
+	padding:60px;
+	line-height:2;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+ul{
+	list-style:none;
+}
+.footer-col{
+	width:40%;
+	padding:0 15px;
+}
+.footer-col h4{
+	font-size:18px;
+	color:#229d89;
+	text-transform:capitalize;
+	margin-bottom:35px;
+	font-weight:500;
+	position:relative;
+	
+}
+.footer-col h4::before{
+	content:'';
+	position: absolute;
+	left:0;
+	bottom:-10px;
+	background-color:#ffae00;
+	height:2px;
+	box-sizing:border-box;
+	width:50px;
+	
+}
+.footer-col ul li {
+	
+	margin-bottom:10px;
+}
+.footer-col ul li a{
+	font-size:16px;
+	text-transform:capitalize;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:300;
+	color:#bbbbbb;
+	display:block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color:#ffffff;
+	padding-left:5px;
+}
+.footer-col .social-links a{
+	padding-top:10px;
+	float:left;
+	background-color:rgba(255,255,255,0.2);
+	display:inline-block;
+	height:40px;
+	width:40px;
+	margin:0 10px 10px 0;
+	text-align:center;
+	line-height:40px;
+	border-radius:50%;
+	color:#ffffff;
+	/*transition: all 0.1s ease;*/
+	
+}
+.footer-col .social-links:hover{
+	color:#24262b;
+	background-color:#ffffff;
+	
+}
+
+
+
+

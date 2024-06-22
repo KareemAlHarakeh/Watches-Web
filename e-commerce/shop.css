@@ -1,0 +1,174 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  
+}  
+ header h2{
+	margin-left:50px;
+	color:gold;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  
+}
+
+
+header img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  
+ padding-left: 450px;
+}
+header nav {
+  margin-left: auto;
+  
+  
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+	margin-right: 1.5em;
+	list-style-type:none;
+	display:inline-block;
+
+}
+
+header nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	text-decoration:none;
+	text-transform:capitalize;
+	transition:0.4s;/*take transition for 0.9 second*/
+	font-family: 'Josefin Sans', sans-serif;
+}
+header ul li a:hover {
+	color:#72a19f;
+	
+}
+span{
+	color: #229d89;
+}
+
+
+
+main {
+  padding: 1em;
+}
+main section p{
+	font-size:12px;
+	
+}
+
+section {
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 0.5em;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+section h1 {
+  text-align: center;
+}
+section img{
+	height:300px;
+	
+	margin-right:10px;
+	background-color:#fff;
+}
+.product{
+	box-shadow: 0px 0px 15px black;
+	margin-right:30px;
+	margin-top:30px;
+  margin-bottom: 50px;
+	}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+   position: relative;
+   
+	
+}
+.product h3{
+	padding-left:80px;
+}
+.product p{
+	
+	padding-left:30px;
+}
+
+.slider-container {
+  width: 1500px;
+  height: 500px;
+  position: relative;
+}
+.slider-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+   width: 100%;
+ 
+  
+}
+
+.slide:first-child {
+  opacity: 1;
+}
+.modal {
+  display: none; /* hide the modal by default */
+  position: fixed; /* position the modal in the center of the screen */
+  z-index: 1; /* keep the modal on top of other content */
+  left: 0;
+  top: 0;
+  width: 100%; /* full width */
+  height: 100%; /* full height */
+  overflow: auto; /* enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* background color */
+}
+
+.modal-content {
+  background-color: #fefefe; /* modal content background color */
+  margin: 15% auto; /* top and bottom margin */
+  padding: 20px; /* content padding */
+  width: 80%; /* width of the modal content */
+}
+.container{
+	background-color:#80807F;
+	
+}
+.learn-more-button {
+  background-color: #229d89;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.learn-more-button:hover {
+  background-color: #1b7d6d;
+  cursor: pointer;
+}
+span{
+	color: #229d89;
+}
+.click{
+  margin-left: 500px;
+}

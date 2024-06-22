@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Medlej-Watches.com</title>
+	<link rel="shortcut icon" type="image" href="https://cdn.iconscout.com/icon/free/png-256/rolex-3421445-2853751.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header>
+      <h2> Medlej <span> Watches 	</span>	</h2>
+	  
+		<img src="images\rrr.png" alt="icon" >
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="shop.html">Shop</a> </li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+	
+			<div class="slider-container">
+				<div class="slider-wrapper">
+					<img src="https://www.bobswatches.com/rolex-blog/wp-content/uploads/2022/11/IMG_2080-Edit-1-1-1-1536x1024.jpg" class="slide">
+					
+					<img src="https://www.bobswatches.com/rolex-blog/wp-content/uploads/2022/11/20JM6406-Edit-1-1-1-1536x1024.jpg" class="slide">
+				
+					<img src="https://www.bobswatches.com/rolex-blog/wp-content/uploads/2019/04/Rolex_GMT_116711_5D3_4304-2-Edit.jpg" class="slide">
+			
+				
+					
+				</div>
+			</div>
+	
+		<script>
+		
+		var sliderContainer = document.querySelector('.slider-container');
+		var slides = document.querySelectorAll('.slide');
+
+			var currentSlide = 0;
+
+			slides[currentSlide].style.opacity = 1;
+
+			function changeSlide() {
+			slides[currentSlide].style.opacity = 0;
+			currentSlide = (currentSlide + 1) % slides.length;
+			slides[currentSlide].style.opacity = 1;
+			}
+
+			setInterval(changeSlide, 3000);
+
+		</script>
+		
+    <main>
+		<div class = "wel">
+			<h2> Hello our customer	</h2>
+			<p>
+			This website talks about watches brand <span><strong>Rolex ;)</strong></span> <br>
+			Our us we show you the watches which they are <i><strong> Copy A </strong></i> and <i><strong>Original </strong></i> if you need
+			</p>
+			<h3>
+				A glimpse about the products:
+			
+			</h3>
+		</div>
+      <section>
+        <h1><span>Featured </span> Products</h1>
+        <div class="product-list">
+          <div class="product" id="1">
+				<img src="https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m126711chnr-0002.png?impolicy=v6-upright&imwidth=420" class = "imgf">	
+				<h3>GMT-MASTER II</h3>
+				<p>Oyster, 40 mm, Oystersteel and Everose gold</p>
+					
+
+           
+			</div>
+          <div class="product" id="2">
+            <img src="https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m124300-0001.png?impolicy=v6-upright&imwidth=420" alt="Product 2" class = "imgf">
+            <h3>Oyster Perpetual</h3>
+            <p>Oyster, 41 mm, Oystersteel</p>
+          </div>
+          <div class="product" id="3">
+            <img src="https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m226658-0001.png?impolicy=v6-upright&imwidth=420" alt="Product 3" class = "imgf">
+            <h3 id = "left">Yacht-Master</h3>
+            <p id = "left">Oyster, 42 mm, yellow gold</p>
+            
+          </div>
+		  <div class="product" id="4"> 
+            <img src="https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m228236-0012.png?impolicy=v6-upright&imwidth=420" alt="Product 4" class = "imgf">
+            <h3 id = "left">Day-Date</h3>
+            <p id = "left">Oyster, 40 mm, Platinsum</p>
+            
+          </div>
+		  
+		 <div class = "more">
+			<p id= "product-more"> <i>For more products ... <a href="shop.html">shop</a>	</i></p>
+		 
+		 </div>
+	
+        </div>
+      </section>
+    </main>
+	
+
+
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col"> 
+				<h4>Company	</h4>
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Our Services</a></li>
+					<li><a href="#">Privacy policy</a></li>
+					<li><a href="#">affiliate program</a></li>
+				
+				</ul>
+			
+			</div>
+			<div class="footer-col"> 
+				<h4>Get Help	</h4>
+				<ul>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Shipping</a></li>
+					<li><a href="#">Returns</a></li>
+					<li><a href="#">Order status</a></li>
+					<li><a href="#">Payment Options</a></li>
+				
+				</ul>
+			
+			</div>
+
+			<div class="footer-col"> 
+				<h4>Follow Us	</h4>
+				<div class="social-links">
+				<ul>
+					<li><a href="#" id="fb"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href="#" id="twr"><i class="fab fa-twitter "></i></a></li>
+					<li><a href="#" id="ins"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#"id="in"><i class="fab fa-linkedin-in"></i></a></li>
+				</ul>
+			
+			</div>
+		
+		</div>
+	
+	</div>
+
+</footer>
+
+
+
+</footer>
+
+
+
+
+  </body>
+</html>

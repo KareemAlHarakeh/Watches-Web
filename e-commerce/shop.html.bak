@@ -1,0 +1,201 @@
+<html>
+<head> 
+	<title>Harakeh-Watches.com</title>
+	<link rel="shortcut icon" type="image" href="https://cdn.iconscout.com/icon/free/png-256/rolex-3421445-2853751.png">
+	<link rel="stylesheet" type="text/css" href="shop.css">
+</head>
+
+
+<body>
+   <header>
+      <h2> Harakeh <span> Watches 	</span>	</h2>
+	  
+		<img src="images\rrr.png" alt="icon" >
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="shop.html">Shop</a> </li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+<div class="container">
+ <main>
+      <section>
+        <h1><span>Rolex</span> Products</h1>
+        <div class="product-list">
+          <div class="product">
+				<img src="https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m126711chnr-0002.png?impolicy=v6-upright&imwidth=420">	
+				<h3>GMT-MASTER II</h3>
+				<p>Oyster, 40 mm, Oystersteel and Everose gold</p>
+				
+				<button class="learn-more-button">Learn More</button>
+
+					<div class="modal">
+						<div class="modal-content">
+							<p>This Oyster, 40 mm, Oystersteel and Everose gold, and it has many 
+								Features: <br>
+								<ul>
+									<li> Zafeer	</li>
+									<li> Waterproof</li>
+									<li> Diving 30 Meters</li>
+								</ul>
+							</p>
+						</div>
+						<button class="close">Close</button>
+					</div>
+					
+           
+			</div>
+          <div class="product">
+				<img src="https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m126900-0001.png?impolicy=v6-upright&imwidth=420" alt="Product 2">
+				<h3>AIR-KING</h3>
+				<p>Oyster, 40 mm, Oystersteel</p>
+				
+				<button class="learn-more-button">Learn More</button>
+				
+						<div class="modal 1">
+						<div class="modal-content">
+							<p>This Oyster, 40 mm, Oystersteel and Everose gold, and it has many 
+								Features: <br>
+								<ul>
+									<li> Zafeer	</li>
+									<li> Waterproof</li>
+									<li> Diving 30 Meters</li>
+								</ul>
+							</p>
+						</div>
+						<button class="close 1">Close</button>
+					</div>
+					
+				
+			</div>
+		
+		  
+		  
+          <div class="product">
+				<img src="https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m226658-0001.png?impolicy=v6-upright&imwidth=420" alt="Product 3">
+				<h3 id = "left">Yacht-Master 42</h3>
+				<p id = "left">Oyster, 42 mm, yellow gold</p>
+					
+					<button class="learn-more-button">Learn More</button>
+	
+		
+          </div>
+		  
+	
+		  
+		  
+		  <div class="product">
+            <img src="https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m228236-0012.png?impolicy=v6-upright&imwidth=420" alt="Product 4">
+            <h3 id = "left">Day-Date</h3>
+            <p id = "left">Oyster, 40 mm, Platinsum</p>
+			
+			<button class="learn-more-button">Learn More</button>
+            
+          </div>
+		  
+		
+		
+		 <div class="product">
+            <img src="https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m124300-0001.png?impolicy=v6-upright&imwidth=420" alt="Product 4">
+            <h3>Oyster Perpetual</h3>
+            <p>Oyster, 41 mm, Oystersteel</p>
+			
+			<button class="learn-more-button">Learn More</button>
+           
+          </div>
+		  <div class="product">
+            <img src="https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m326238-0009.png?impolicy=v6-upright&imwidth=420" alt="Product 4">
+            <h3>Sky-Dweller</h3>
+            <p>Oyster, 42 mm, yellow gold</p>
+			
+			<button class="learn-more-button">Learn More</button>
+           
+          </div>
+		  <div class="product">
+            <img src="https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m116400gv-0002.png?impolicy=v6-upright&imwidth=420" alt="Product 4">
+			
+            <h3>Milgauss</h3>
+            <p>Oyster, 40 mm, Oystersteel</p>
+			
+			<button class="learn-more-button">Learn More</button>
+           
+          </div>
+		  <div class="product">
+            <img src="https://content.rolex.com/dam/2022/upright-bba-with-shadow/m126333-0012.png?imwidth=380" alt="Product 4">
+			
+            <h3>Datejust 36</h3>
+            <p>Oyster, 36 mm, Oystersteel and yellow gold</p>
+           
+          </div>
+		  <div class="product">
+            <img src="https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m116400gv-0002.png?impolicy=v6-upright&imwidth=420" alt="Product 4">
+			
+            <h3>Product 4</h3>
+            <p>Product 4 Description</p>
+           
+          </div>
+		  <div class="product">
+            <img src="https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m116400gv-0002.png?impolicy=v6-upright&imwidth=420" alt="Product 4">
+			
+            <h3>Product 4</h3>
+            <p>Product 4 Description</p>
+           
+          </div>
+		  <div class="product">
+            <img src="https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m116400gv-0002.png?impolicy=v6-upright&imwidth=420" alt="Product 4">
+			
+            <h3>Product 4</h3>
+            <p>Product 4 Description</p>
+           
+          </div>
+		  <div class="product">
+            <img src="https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m116400gv-0002.png?impolicy=v6-upright&imwidth=420" alt="Product 4">
+			
+            <h3>Product 4</h3>
+            <p>Product 4 Description</p>
+           
+          </div>
+		  <div class="product">
+            <img src="https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m116400gv-0002.png?impolicy=v6-upright&imwidth=420" alt="Product 4">
+			
+            <h3>Product 4</h3>
+            <p>Product 4 Description</p>
+			
+			
+			
+			
+			
+           
+          </div>
+	
+		  
+        </div>
+		
+		<script>		
+			  const button = document.querySelector('.learn-more-button');
+				const modal = document.querySelector('.modal');
+				const close = document.querySelector('.close');
+
+				button.addEventListener('click', function() {
+				modal.style.display = 'block';
+				});
+
+				close.addEventListener('click', function() {
+				modal.style.display = 'none';
+				});
+
+		  
+			
+		  
+		  </script>
+		  
+      </section>
+    </main>
+	
+
+
+</body>
+</html>

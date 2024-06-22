@@ -1,0 +1,146 @@
+:root{
+	--primaryColor:#ff274b;/*red*/
+	--secondayColor:#f7bcf7;/*like pink*/
+	--lightColor:#ffffff;/*like pink*/
+	--bgColor-1:#171a1c;/*like black*/
+	--bgColor-2:#22282a;/*like black*/
+	--padding:8%;
+}
+
+
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0;
+	
+  
+}
+header h2{
+	margin-left:50px;
+	color:gold;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  
+}
+span{
+	color: #229d89;
+}
+header img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  
+ padding-left: 450px;
+}
+header nav {
+  margin-left: auto;
+  
+  
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+	margin-right: 1.5em;
+	list-style-type:none;
+	display:inline-block;
+
+}
+
+header nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	text-decoration:none;
+	text-transform:capitalize;
+	transition:0.4s;/*take transition for 0.9 second*/
+	font-family: 'Josefin Sans', sans-serif;
+}
+header ul li a:hover {
+	color:#72a19f;
+	
+}
+
+Contact-info{
+	
+	min-height:100vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	
+}
+.contact-info{
+	display:flex;
+	width:100%;
+	max-width:1200px;
+	align-items:center;
+	justify-content:center;
+	padding:0 20px;
+	margin:130px;
+	margin-top:600px;
+	
+}
+.card{
+	background-color:var(--bgColor-2);
+	padding:0 20px;
+	margin:0 10px;
+	width:calc(33% - 20px);
+	height:200px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	color:white;
+	border:3px #229d89 solid;
+	border-radius:15%;
+}
+
+.card-icon{
+	font-size:28px;
+	background-color:#229d89;
+	width:60px;
+	height:60px;
+	text-align:center;
+	line-height:60px !important;/*to make the icon in the middle height */
+	border-radius:50%;
+	transition:0.3s linear;
+	
+}
+.card:hover .card-icon{
+	background-color:none;
+	color:var(--bgColor-2);
+	transform:scale(1.0);
+}
+.card p{
+	margin-top:10px;
+	letter-spacing:1px;
+	font-weight:300;
+	max-height:0;
+	opacity:0;
+	transition:0.3s linear;
+}
+
+.card:hover p{
+	max-height:40px;
+	opacity:1;
+	color:gold;
+}
+.cover-picture {
+    height: 70%;
+    width: 80%;
+    position: absolute;
+	margin-left:165px;
+
+}
+main h2{
+	
+	margin-left:200px;
+}
